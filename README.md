@@ -3,7 +3,7 @@
 
 On the original instructions where it says "sudo apt-get install omxplayer"
 
-replace the with this:
+replace with this:
 
 `sudo apt-get update` Update the apt first.
 
