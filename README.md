@@ -9,7 +9,7 @@ replace with this:
 
 `sudo apt-get install vlc` Install the vlc player as omxplayer is deprecated.
 
-`sudo apt-get install python3-rpi.gpio` Install gpio dependency for python as well (just to be safe), even tho previously Withrow had us install "sudo apt-get install raspi-gpio" already.
+`sudo apt-get install python3-rpi.gpio` Install gpio dependency for python as well (just to be safe), even though previously Withrow had us install "sudo apt-get install raspi-gpio" already.
 
 `sudo apt-get install git` Install git for downloading the repo
 
