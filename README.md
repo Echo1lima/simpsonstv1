@@ -4,6 +4,7 @@
 On the original instructions where it says "sudo apt-get install omxplayer"
 
 replace the with this:
+
 `sudo apt-get update` Update the apt first.
 
 `sudo apt-get install vlc` Install the vlc player as omxplayer is deprecated.
