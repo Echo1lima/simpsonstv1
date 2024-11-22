@@ -2,6 +2,7 @@
 **These python scripts are updated to work with Raspios (Bullseye) on Pi Zero 2 W**
 
 On the original instructions where it says "sudo apt-get install omxplayer"
+
 replace the with this:
 `sudo apt-get update` Update the apt first.
 
