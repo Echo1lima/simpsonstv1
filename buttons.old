@@ -2,8 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import os
 
-os.system('raspi-gpio set 19 op dl')  # Changed from 'ip' to 'op dl' for Bullseye
-GPIO.setwarnings(False)  # Added to prevent warnings
+os.system('raspi-gpio set 19 ip')
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(26, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setup(18, GPIO.OUT)
@@ -15,14 +14,14 @@ def turnOnScreen():
 
 
 def turnOffScreen():
-    os.system('raspi-gpio set 19 op dl')  # Changed from 'ip' to 'op dl' for Bullseye
+    os.system('raspi-gpio set 19 ip')
     GPIO.output(18, GPIO.LOW)
 
 
 turnOffScreen()
 screen_on = False
 
-while True:
+while (True):
     # If you are having and issue with the button doing the opposite of what you want
     # IE Turns on when it should be off, change this line to:
     # input = not GPIO.input(26)
